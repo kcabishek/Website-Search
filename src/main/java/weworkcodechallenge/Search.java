@@ -42,7 +42,7 @@ public class Search extends Thread implements Runnable {
 		for (int i = start; i <= end; i++) {
 
 			try {
-				currentURL = "http://" + urlList[i];
+				currentURL = "http://www." + urlList[i];
 				con = Jsoup.connect(currentURL);
 				res = con.execute();
 				
