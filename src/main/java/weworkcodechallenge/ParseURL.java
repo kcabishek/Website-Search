@@ -28,7 +28,7 @@ public class ParseURL {
 
 		System.out.println("STEP 1:");
 		System.out.println();
-		System.out.println("Please enter the input file directory along with the file name in the below format: ");
+		System.out.println("Please enter the input file directory in the below format: ");
 		System.out.println("/user/documents/foldername");
 		String inLoc = in.nextLine();
 
@@ -86,7 +86,7 @@ public class ParseURL {
 		searchTerm2 = in.nextLine();
 
 		System.out.println();
-		System.out.println("Please enter the output file directory along with the file name in the below format (Cannot be empty) : ");
+		System.out.println("Please enter the output file directory in the below format (Cannot be empty) : ");
 		System.out.println("/user/documents/foldername");
 		String outLoc = in.nextLine();
 
